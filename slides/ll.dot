@@ -1,0 +1,18 @@
+digraph G {
+    rankdir=LR;
+    node [shape=record]
+    edge [arrowhead=vee, arrowtail=dot, dir=both, tailclip=false ]
+    
+    1 [label=" {1 | <next>} "];
+    3 [label=" {3 | <next>} "];
+    5 [label=" {5 | <next>} "];
+    44 [label=" {44 | <next>} "];
+    2 [label=" {2 | <next>} "];
+    nil [shape="point"]
+
+    1:next:c -> 3;
+    3:next:c -> 5;
+    5:next:c -> 44;
+    44:next:c -> 2;
+    2:next:c -> nil;
+}

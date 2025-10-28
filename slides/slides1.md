@@ -10,6 +10,16 @@ footer: 'Igor Montagner (igordsm@gmail.com)'
 
 -------
 
+# Materiais
+
+1. fontes: https://github.com/igordsm/listas-ligadas/tree/main
+2. exercícios: https://us.prairielearn.com/pl/course_instance/197989/assessment/2606188
+
+
+--------
+
+
+
 # Motivação
 
 ![](./vscode-find.png)
@@ -55,7 +65,7 @@ Estrutura **recursiva** composta por nós, onde cada nó possui dois atributos
 
 A lista vazia é representada pelo valor `NULL`.
 
-TODO: desenho aqui!
+![](lista-ligada.png)
 
 --------------
 
